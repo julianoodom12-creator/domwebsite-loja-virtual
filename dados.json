@@ -1,0 +1,364 @@
+{
+  "brand": "DomWebsite",
+  "product": {
+    "badge": "★ Best Seller",
+    "name": "Lojas Virtuais",
+    "rating": "4,9",
+    "ratingCount": "3.800",
+    "price": "R$ 3.299",
+    "oldPrice": "R$ 4.999",
+    "discount": "-34% OFF",
+    "installment": "ou 12x de R$ 318,89 sem juros no cartão",
+    "heroSub": "E-commerce completo com carrinho funcional, pagamento integrado, gestão de estoque, frete automático e SEO forte. Venda 24h por dia."
+  },
+  "productsTitle": "Nossos produtos",
+  "productsSub": "Escolha, adicione ao carrinho e finalize pelo WhatsApp ou Pix.",
+  "featuresTitle": "Tudo que sua loja precisa",
+  "featuresSub": "Do checkout ao pós-venda, cada detalhe pensado para você vender mais.",
+  "galleryTitle": "Veja de perto",
+  "gallerySub": "Clique em qualquer imagem para ampliar.",
+  "compareTitle": "Nossa loja vs. plataformas prontas",
+  "compareSub": "A diferença entre uma loja exclusiva e um template engessado.",
+  "faqTitle": "Tire suas dúvidas",
+  "contactTitle": "Peça seu orçamento",
+  "contactSub": "Preenche o formulário. A gente responde rápido.",
+  "footer": "© 2026 DomWebsite — Francisco Beltrão PR. Todos os direitos reservados.",
+  "backgrounds": {
+    "hero": {
+      "type": "",
+      "url": "",
+      "idbKey": "",
+      "opacity": 35,
+      "blur": 0
+    },
+    "products": {
+      "type": "",
+      "url": "",
+      "idbKey": "",
+      "opacity": 35,
+      "blur": 0
+    },
+    "logos": {
+      "type": "",
+      "url": "",
+      "idbKey": "",
+      "opacity": 35,
+      "blur": 0
+    },
+    "features": {
+      "type": "",
+      "url": "",
+      "idbKey": "",
+      "opacity": 35,
+      "blur": 0
+    },
+    "gallery": {
+      "type": "",
+      "url": "",
+      "idbKey": "",
+      "opacity": 35,
+      "blur": 0
+    },
+    "compare": {
+      "type": "",
+      "url": "",
+      "idbKey": "",
+      "opacity": 35,
+      "blur": 0
+    },
+    "faq": {
+      "type": "",
+      "url": "",
+      "idbKey": "",
+      "opacity": 35,
+      "blur": 0
+    },
+    "testimonials": {
+      "type": "",
+      "url": "",
+      "idbKey": "",
+      "opacity": 35,
+      "blur": 0
+    },
+    "contact": {
+      "type": "",
+      "url": "",
+      "idbKey": "",
+      "opacity": 35,
+      "blur": 0
+    },
+    "footer": {
+      "type": "",
+      "url": "",
+      "idbKey": "",
+      "opacity": 35,
+      "blur": 0
+    }
+  },
+  "bgGlobal": {
+    "on": true,
+    "type": "video",
+    "url": "https://fzmufylqfyieidpqodin.supabase.co/storage/v1/object/public/midias/wm_6aa2fe0a1b360d2337cf408d.mp4",
+    "idbKey": "",
+    "opacity": 100,
+    "blur": 0
+  },
+  "bgRgb": {
+    "on": false,
+    "opacity": 35
+  },
+  "images": {
+    "hero": "",
+    "heroIdb": "",
+    "testimonial": "",
+    "testimonialIdb": ""
+  },
+  "features": [
+    {
+      "emoji": "🛒",
+      "title": "Carrinho funcional",
+      "desc": "Adicione produtos, edite quantidades e finalize em segundos. O carrinho persiste entre visitas."
+    },
+    {
+      "emoji": "💬",
+      "title": "Checkout no WhatsApp",
+      "desc": "Pedido formatado automaticamente com itens, quantidades e total. Você recebe pronto pra responder."
+    },
+    {
+      "emoji": "⚡",
+      "title": "Pix copia-e-cola",
+      "desc": "Múltiplas chaves Pix cadastradas. Cliente escolhe, copia e paga na hora, sem intermediário."
+    },
+    {
+      "emoji": "📦",
+      "title": "Gestão de produtos",
+      "desc": "Cadastre produtos com imagem ou vídeo, categoria, preço, estoque e descrição."
+    },
+    {
+      "emoji": "🎨",
+      "title": "Design exclusivo",
+      "desc": "Layout com a sua cara. Cores, efeitos, fundos e imagens editáveis direto no painel."
+    },
+    {
+      "emoji": "📊",
+      "title": "Relatórios e CRM",
+      "desc": "Todos os pedidos e leads ficam salvos. Exporte em CSV quando quiser."
+    }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "name": "Loja Virtual Essencial",
+      "category": "E-commerce",
+      "price": 1299,
+      "oldPrice": 1999,
+      "desc": "Loja completa com carrinho, checkout via WhatsApp/Pix, painel admin e 1 ano de suporte.",
+      "stock": 10,
+      "emoji": "🛍️",
+      "src": "",
+      "idbKey": "",
+      "type": "",
+      "active": true
+    },
+    {
+      "id": "p2",
+      "name": "Loja Virtual Pro",
+      "category": "E-commerce",
+      "price": 3299,
+      "oldPrice": 4999,
+      "desc": "Tudo do Essencial + integração de pagamento, gestão de estoque avançada e SEO completo.",
+      "stock": 5,
+      "emoji": "💎",
+      "src": "",
+      "idbKey": "",
+      "type": "",
+      "active": true
+    },
+    {
+      "id": "p3",
+      "name": "Pacote Anúncios Meta",
+      "category": "Marketing",
+      "price": 499,
+      "oldPrice": 799,
+      "desc": "Configuração de campanhas no Facebook e Instagram Ads com pixel e catálogo de produtos.",
+      "stock": 20,
+      "emoji": "📣",
+      "src": "",
+      "idbKey": "",
+      "type": "",
+      "active": true
+    },
+    {
+      "id": "p4",
+      "name": "Identidade Visual",
+      "category": "Design",
+      "price": 899,
+      "oldPrice": 1499,
+      "desc": "Logo, paleta de cores, tipografia e manual da marca para sua loja.",
+      "stock": 8,
+      "emoji": "🎨",
+      "src": "",
+      "idbKey": "",
+      "type": "",
+      "active": true
+    }
+  ],
+  "categories": [
+    "E-commerce",
+    "Marketing",
+    "Design"
+  ],
+  "payments": {
+    "pix": [
+      {
+        "id": "pix1",
+        "label": "Pix — CNPJ",
+        "key": "46.991.219/0001-00",
+        "type": "CNPJ",
+        "note": "Titular: DomWebsite ME"
+      },
+      {
+        "id": "pix2",
+        "label": "Pix — Celular",
+        "key": "46991219785",
+        "type": "Celular",
+        "note": "Titular: Dom Domingos"
+      }
+    ],
+    "other": [
+      {
+        "id": "pay1",
+        "label": "Transferência bancária",
+        "desc": "Banco: 237 — Bradesco\nAg: 1234\nCC: 56789-0\nTitular: DomWebsite ME\nCPF/CNPJ: 46.991.219/0001-00",
+        "link": ""
+      }
+    ]
+  },
+  "cart": {
+    "title": "🛒 Seu carrinho",
+    "shipFixed": 0,
+    "freeAbove": 0,
+    "waMsg": "Olá! Quero fazer um pedido:",
+    "color": "#25d366",
+    "showPrice": true,
+    "showQty": true,
+    "persist": true
+  },
+  "gallery": [],
+  "compare": [
+    {
+      "label": "Taxa por venda",
+      "a": "✓ Zero",
+      "b": "✕ 2% a 8%"
+    },
+    {
+      "label": "Personalização",
+      "a": "✓ Total",
+      "b": "✕ Limitada"
+    },
+    {
+      "label": "Carrinho funcional",
+      "a": "✓ Incluído",
+      "b": "✕ Plugins pagos"
+    },
+    {
+      "label": "Checkout WhatsApp/Pix",
+      "a": "✓ Direto",
+      "b": "✕ Só gateway"
+    },
+    {
+      "label": "Domínio próprio",
+      "a": "✓ Incluído",
+      "b": "✕ Plano premium"
+    },
+    {
+      "label": "Suporte",
+      "a": "✓ 1 ano",
+      "b": "✕ Só ticket"
+    },
+    {
+      "label": "Propriedade dos dados",
+      "a": "✓ 100% sua",
+      "b": "✕ Servidor deles"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Preciso ter CNPJ para ter loja virtual?",
+      "a": "Não. Você pode começar como CPF. Recomendamos CNPJ para emissão de nota fiscal e melhores taxas."
+    },
+    {
+      "q": "Como funciona o carrinho?",
+      "a": "O cliente adiciona produtos, ajusta quantidades no painel lateral e finaliza escolhendo WhatsApp ou Pix. O carrinho fica salvo no navegador."
+    },
+    {
+      "q": "Como recebo os pedidos?",
+      "a": "Se escolher WhatsApp, o pedido chega formatado direto no seu número. Se escolher Pix, o cliente paga e envia o comprovante. Tudo fica registrado no painel admin."
+    },
+    {
+      "q": "Posso cadastrar meus produtos sozinho?",
+      "a": "Sim. O painel admin tem cadastro completo com imagem ou vídeo, preço, estoque, categoria e descrição."
+    },
+    {
+      "q": "Consigo ter várias chaves Pix?",
+      "a": "Sim. Cadastre quantas quiser no painel. O cliente escolhe qual usar na hora do pagamento."
+    }
+  ],
+  "colors": {
+    "bg": "#0a0217",
+    "bg2": "#12051f",
+    "primary": "#a855f7",
+    "accent": "#ec4899",
+    "text": "#ffffff",
+    "muted": "#a89ec4",
+    "secondary": "#22d3ee"
+  },
+  "effects": {
+    "rgb": false,
+    "particles": true,
+    "glow": false,
+    "marquee": false
+  },
+  "effectsFX": {
+    "matrix": false,
+    "lava": false,
+    "neon": false,
+    "glitch": false,
+    "stars": false,
+    "aurora": false,
+    "smoke": false,
+    "scan": false,
+    "crt": false,
+    "grid": false,
+    "plasma": false,
+    "bubbles": false,
+    "mesh": false,
+    "shock": false,
+    "vhs": false,
+    "intensity": 82
+  },
+  "mods": {
+    "reveal": true,
+    "ripple": true,
+    "cursor": true
+  },
+  "marquee": "🛒 Carrinho funcional • ⚡ Pix copia-e-cola • 💬 Checkout WhatsApp • 🔒 Compra segura •",
+  "floats": {
+    "whats": true,
+    "whatsNum": "5546991219785",
+    "whatsMsg": "Olá! Vim pelo site e quero saber mais.",
+    "insta": false,
+    "instaUrl": "https://instagram.com/",
+    "face": false,
+    "faceUrl": "https://facebook.com/"
+  },
+  "floatsPL": {
+    "soft": true,
+    "wave": true,
+    "glow": false
+  },
+  "theme": "dark",
+  "crm": [],
+  "orders": [],
+  "pwHash": "b0842a2578392d51cecb82beb20fa9e99077ad27473921cdcea6700f0e70d8c0"
+}
