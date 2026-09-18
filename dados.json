@@ -152,10 +152,10 @@
       "category": "E-commerce",
       "price": 1299,
       "oldPrice": 1999,
-      "desc": "Loja completa com carrinho, checkout via WhatsApp/Pix, painel admin e 1 ano de suporte.",
+      "desc": "Loja completa com carrinho, checkout via WhatsApp/Pix, painel admin ",
       "stock": 10,
       "emoji": "🛍️",
-      "src": "",
+      "src": "https://fzmufylqfyieidpqodin.supabase.co/storage/v1/object/public/midias/IMG-20260915-WA1695.jpg",
       "idbKey": "",
       "type": "",
       "active": true
@@ -163,41 +163,97 @@
     {
       "id": "p2",
       "name": "Loja Virtual Pro",
-      "category": "E-commerce",
+      "category": "E-commerce +",
       "price": 3299,
       "oldPrice": 4999,
       "desc": "Tudo do Essencial + integração de pagamento, gestão de estoque avançada e SEO completo.",
       "stock": 5,
       "emoji": "💎",
-      "src": "",
+      "src": "https://fzmufylqfyieidpqodin.supabase.co/storage/v1/object/public/midias/IMG-20260915-WA1695.jpg",
       "idbKey": "",
       "type": "",
       "active": true
     },
     {
       "id": "p3",
-      "name": "Pacote Anúncios Meta",
+      "name": "Landing Page ",
       "category": "Marketing",
       "price": 499,
       "oldPrice": 799,
-      "desc": "Configuração de campanhas no Facebook e Instagram Ads com pixel e catálogo de produtos.",
+      "desc": "Site inicial, pra quem só quer anunciar sua empresa ,botões flutuante WhatsApp e Instagram + goglee maps ",
       "stock": 20,
       "emoji": "📣",
-      "src": "",
+      "src": "https://fzmufylqfyieidpqodin.supabase.co/storage/v1/object/public/midias/IMG-20260915-WA7430.jpg",
       "idbKey": "",
       "type": "",
       "active": true
     },
     {
       "id": "p4",
-      "name": "Identidade Visual",
-      "category": "Design",
+      "name": "Site Ultra Moderno ",
+      "category": "Ultra Site",
       "price": 899,
       "oldPrice": 1499,
-      "desc": "Logo, paleta de cores, tipografia e manual da marca para sua loja.",
+      "desc": "Tudo do Marketing ,Site Com efeitos +RGB Tudo editavel no painel admin ",
       "stock": 8,
       "emoji": "🎨",
-      "src": "",
+      "src": "https://fzmufylqfyieidpqodin.supabase.co/storage/v1/object/public/midias/IMG-20260915-WA6004.jpg",
+      "idbKey": "",
+      "type": "",
+      "active": true
+    },
+    {
+      "id": "xmu6ahsokrbu",
+      "name": "Sistemas Web ",
+      "category": "Instituição ",
+      "price": 4999,
+      "oldPrice": 7999,
+      "desc": "O mais completo do Domwebsite ",
+      "stock": 4,
+      "emoji": "📦",
+      "src": "https://fzmufylqfyieidpqodin.supabase.co/storage/v1/object/public/midias/IMG-20260915-WA5256.jpg",
+      "idbKey": "",
+      "type": "",
+      "active": true
+    },
+    {
+      "id": "xmu6asqhc84m",
+      "name": "Site Apk Android ",
+      "category": "APK",
+      "price": 250,
+      "oldPrice": 350,
+      "desc": "Transformo seu site html em APK\nEntrega Via WhatsApp ",
+      "stock": "",
+      "emoji": "📦",
+      "src": "https://fzmufylqfyieidpqodin.supabase.co/storage/v1/object/public/midias/IMG-20260916-WA3236.jpg",
+      "idbKey": "",
+      "type": "",
+      "active": true
+    },
+    {
+      "id": "xmu6at3cba53",
+      "name": "Site APP playstore ",
+      "category": "APP Playstore ",
+      "price": 499,
+      "oldPrice": 799,
+      "desc": "Entrega  pode demorar até uns 15 dias \nDevido a aprovação da Playstore ",
+      "stock": "",
+      "emoji": "📦",
+      "src": "https://fzmufylqfyieidpqodin.supabase.co/storage/v1/object/public/midias/IMG-20260916-WA9627.jpg",
+      "idbKey": "",
+      "type": "",
+      "active": true
+    },
+    {
+      "id": "xmu6at4hjbid",
+      "name": "Restauração de fotos",
+      "category": "Fotos",
+      "price": 0,
+      "oldPrice": 0,
+      "desc": "Restauração e Animação de fotos",
+      "stock": "",
+      "emoji": "📦",
+      "src": "https://fzmufylqfyieidpqodin.supabase.co/storage/v1/object/public/midias/IMG-20260914-WA5212.jpg",
       "idbKey": "",
       "type": "",
       "active": true
@@ -211,28 +267,14 @@
   "payments": {
     "pix": [
       {
-        "id": "pix1",
-        "label": "Pix — CNPJ",
-        "key": "46.991.219/0001-00",
-        "type": "CNPJ",
-        "note": "Titular: DomWebsite ME"
-      },
-      {
         "id": "pix2",
         "label": "Pix — Celular",
         "key": "46991219785",
         "type": "Celular",
-        "note": "Titular: Dom Domingos"
+        "note": "Titular: Juliano Vieira "
       }
     ],
-    "other": [
-      {
-        "id": "pay1",
-        "label": "Transferência bancária",
-        "desc": "Banco: 237 — Bradesco\nAg: 1234\nCC: 56789-0\nTitular: DomWebsite ME\nCPF/CNPJ: 46.991.219/0001-00",
-        "link": ""
-      }
-    ]
+    "other": []
   },
   "cart": {
     "title": "🛒 Seu carrinho",
