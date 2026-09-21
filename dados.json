@@ -300,7 +300,15 @@
     "showQty": true,
     "persist": true
   },
-  "gallery": [],
+  "gallery": [
+    {
+      "id": "xmubkzwb15kk",
+      "type": "image",
+      "src": "https://fzmufylqfyieidpqodin.supabase.co/storage/v1/object/public/midias/IMG-20260921-WA7570.jpg",
+      "idbKey": "",
+      "title": "ALUGUEL DE SITES "
+    }
+  ],
   "compare": [
     {
       "label": "Taxa por venda",
@@ -370,8 +378,8 @@
     "secondary": "#22d3ee"
   },
   "effects": {
-    "rgb": false,
-    "particles": true,
+    "rgb": true,
+    "particles": false,
     "glow": false,
     "marquee": false
   },
