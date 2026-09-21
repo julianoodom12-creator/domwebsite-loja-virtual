@@ -3,22 +3,68 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Lojas Virtuais — DomWebsite</title>
+<title>Lojas Virtuais -- DomWebsite</title>
 <meta name="description" content="Lojas virtuais completas com carrinho, pagamento integrado, gestão de estoque e SEO forte. E-commerce profissional em Francisco Beltrão PR e todo o Brasil.">
 <meta name="keywords" content="loja virtual, e-commerce, criação de loja virtual, Francisco Beltrão, Paraná, DomWebsite, carrinho, checkout, pagamento online">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://domwebsite.com.br/lojas-virtuais">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Lojas Virtuais — DomWebsite">
+<meta property="og:title" content="Lojas Virtuais -- DomWebsite">
 <meta property="og:description" content="E-commerce completo com carrinho funcional, pagamento integrado e SEO forte.">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:url" content="https://domwebsite.com.br/lojas-virtuais">
+<meta property="og:image" content="https://domwebsite.com.br/og-lojas-virtuais.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Lojas Virtuais — DomWebsite">
+<meta name="twitter:title" content="Lojas Virtuais -- DomWebsite">
 <meta name="twitter:description" content="E-commerce completo com carrinho funcional e pagamento integrado.">
+<meta name="twitter:image" content="https://domwebsite.com.br/og-lojas-virtuais.jpg">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%9B%92%3C/text%3E%3C/svg%3E">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Product","name":"Lojas Virtuais","description":"Criação de lojas virtuais completas com carrinho, pagamento integrado e SEO forte.","brand":{"@type":"Brand","name":"DomWebsite"},"offers":{"@type":"Offer","price":"3299.00","priceCurrency":"BRL","availability":"https://schema.org/InStock"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"3800"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://domwebsite.com.br/lojas-virtuais#service",
+  "name": "Criação de Lojas Virtuais",
+  "serviceType": "Desenvolvimento de E-commerce",
+  "description": "Criação de lojas virtuais completas com carrinho funcional, pagamento integrado (Pix, cartão, boleto), gestão de estoque, cálculo de frete automático e SEO otimizado para produtos.",
+  "url": "https://domwebsite.com.br/lojas-virtuais",
+  "provider": {
+    "@type": "Organization",
+    "name": "DomWebsite",
+    "url": "https://domwebsite.com.br",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Francisco Beltrão",
+      "addressRegion": "PR",
+      "addressCountry": "BR"
+    }
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Brasil"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "3299.00",
+    "priceCurrency": "BRL",
+    "availability": "https://schema.org/InStock",
+    "url": "https://domwebsite.com.br/lojas-virtuais",
+    "priceValidUntil": "2027-12-31",
+    "seller": {
+      "@type": "Organization",
+      "name": "DomWebsite"
+    }
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "3800",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+}
 </script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;font-family:-apple-system,'Segoe UI',Roboto,sans-serif}
@@ -354,13 +400,10 @@ footer > div:not(.foot-bg){position:relative;z-index:2}
 .pix-block .pix-key{font-family:ui-monospace,monospace;font-size:18px;font-weight:800;color:#25d366;letter-spacing:.5px}
 .pix-block .pix-btn{background:#25d366;color:#0a0217;border:0;padding:10px 18px;border-radius:99px;font-weight:800;font-size:13px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-family:inherit}
 .pix-block .pix-btn:hover{filter:brightness(1.1)}
-.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.94);z-index:9500;display:none;align-items:center;justify-content:center;padding:20px;cursor:zoom-out;backdrop-filter:blur(8px);opacity:0;transition:opacity .25s}
-.lightbox.on{display:flex;opacity:1}
-.lightbox img,.lightbox video{max-width:100%;max-height:100%;border-radius:12px;box-shadow:0 30px 80px rgba(0,0,0,.6);cursor:default;animation:lbIn .3s ease}
-@keyframes lbIn{from{opacity:0;transform:scale(.92)}to{opacity:1;transform:scale(1)}}
-.lightbox .lb-close{position:absolute;top:20px;right:20px;width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;font-size:24px;cursor:pointer;font-family:inherit;display:flex;align-items:center;justify-content:center;z-index:2}
-.lightbox .lb-close:hover{background:rgba(236,72,153,.4);border-color:rgba(236,72,153,.6)}
-.lightbox .lb-zoom-hint{position:absolute;bottom:20px;left:50%;transform:translateX(-50%);color:rgba(255,255,255,.6);font-size:12px;font-weight:600;background:rgba(0,0,0,.5);padding:6px 14px;border-radius:99px;backdrop-filter:blur(10px);pointer-events:none;z-index:2}
+.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.92);z-index:9500;display:none;align-items:center;justify-content:center;padding:20px;cursor:zoom-out;backdrop-filter:blur(8px)}
+.lightbox.on{display:flex}
+.lightbox img,.lightbox video{max-width:100%;max-height:100%;border-radius:12px;box-shadow:0 30px 80px rgba(0,0,0,.6);cursor:default}
+.lightbox .lb-close{position:absolute;top:20px;right:20px;width:44px;height:44px;border-radius:50%;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25);color:#fff;font-size:22px;cursor:pointer;font-family:inherit}
 .floats{position:fixed;bottom:24px;right:24px;display:flex;flex-direction:column;gap:16px;z-index:200}
 .float{position:relative;width:60px;height:60px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;text-decoration:none;border:0;cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.35);transition:transform .22s,box-shadow .22s,background .2s,filter .2s}
 .float svg{width:32px;height:32px;display:block}
@@ -470,7 +513,7 @@ body.light .crm-lead{background:rgba(0,0,0,.03);border-color:rgba(0,0,0,.08)}
 .bg-field .head .status{font-size:11px;color:var(--muted);padding:3px 8px;border-radius:99px;background:rgba(255,255,255,.05)}
 .bg-field .head .status.on{background:rgba(34,211,238,.15);color:#22d3ee}
 .bg-field .preview{width:100%;height:120px;border-radius:10px;background:rgba(0,0,0,.35);overflow:hidden;display:flex;align-items:center;justify-content:center;position:relative;margin-bottom:10px;border:1px dashed rgba(168,85,247,.3)}
-.bg-field .preview.empty::before{content:'Sem fundo — envie um arquivo ou cole URL';font-size:12.5px;color:var(--muted);position:absolute;text-align:center;padding:0 12px}
+.bg-field .preview.empty::before{content:'Sem fundo -- envie um arquivo ou cole URL';font-size:12.5px;color:var(--muted);position:absolute;text-align:center;padding:0 12px}
 .bg-field .preview img,.bg-field .preview video{width:100%;height:100%;object-fit:cover}
 .bg-field .row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
 .bg-field .row button{flex:1;min-width:120px;padding:10px;background:linear-gradient(135deg,var(--primary),var(--accent));color:#fff;border:0;border-radius:8px;font-weight:700;font-size:13px;cursor:pointer;font-family:inherit}
@@ -570,7 +613,7 @@ body.light .crm-lead{background:rgba(0,0,0,.03);border-color:rgba(0,0,0,.08)}
         <div class="product-glow"></div>
         <div class="disc-badge"><span class="big" id="heroDiscBig">-34%</span><span class="small">OFF</span></div>
         <div class="product" id="heroImage">
-          <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+          <svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustração de loja virtual com carrinho de compras">
             <defs>
               <linearGradient id="cartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" stop-color="#22d3ee"/><stop offset="50%" stop-color="#a855f7"/><stop offset="100%" stop-color="#ec4899"/>
@@ -692,7 +735,7 @@ body.light .crm-lead{background:rgba(0,0,0,.03);border-color:rgba(0,0,0,.08)}
     <h2 class="section-title">Lojistas que confiam na DomWebsite <span style="color:#ec4899">♥</span></h2>
     <div class="testimonial-wrap">
       <div class="testimonial-photo" id="testimonialImage">
-        <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Retrato ilustrado de cliente satisfeito">
           <defs>
             <linearGradient id="bgTest" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#1a0a30"/><stop offset="100%" stop-color="#2d1a45"/></linearGradient>
             <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#e0b8a0"/><stop offset="100%" stop-color="#c89880"/></linearGradient>
@@ -746,7 +789,7 @@ body.light .crm-lead{background:rgba(0,0,0,.03);border-color:rgba(0,0,0,.08)}
   <footer id="footer">
     <div class="foot-bg" data-bg="footer"></div>
     <div class="pix-block" id="pixBlock">
-      <span class="pix-key" id="pixFooterKey">—</span>
+      <span class="pix-key" id="pixFooterKey">--</span>
       <button class="pix-btn" type="button" id="pixFooterBtn">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/></svg>
         Copiar Pix
@@ -765,7 +808,7 @@ body.light .crm-lead{background:rgba(0,0,0,.03);border-color:rgba(0,0,0,.08)}
   <div class="items" id="cartItems"></div>
   <div class="foot" id="cartFoot" style="display:none">
     <div class="row"><span>Subtotal</span><span id="cartSubtotal">R$ 0,00</span></div>
-    <div class="row" id="cartShipRow"><span>Frete</span><span id="cartShip">—</span></div>
+    <div class="row" id="cartShipRow"><span>Frete</span><span id="cartShip">--</span></div>
     <div class="row total"><span>Total</span><span class="val" id="cartTotal">R$ 0,00</span></div>
     <button class="checkout" id="cartCheckout">Finalizar compra →</button>
     <button class="clear" id="cartClear">🗑️ Limpar carrinho</button>
@@ -796,7 +839,7 @@ body.light .crm-lead{background:rgba(0,0,0,.03);border-color:rgba(0,0,0,.08)}
         <div class="pix-display" id="pixDisplay" style="display:none">
           <div class="pix-label" id="pixLabel">Chave Pix</div>
           <div class="pix-key-row">
-            <code id="pixKeyValue">—</code>
+            <code id="pixKeyValue">--</code>
             <button id="pixCopyBtn">📋 Copiar</button>
           </div>
           <div class="pix-note">Após o pagamento, envie o comprovante pelo WhatsApp com o resumo do pedido abaixo.</div>
@@ -1062,7 +1105,7 @@ body.light .crm-lead{background:rgba(0,0,0,.03);border-color:rgba(0,0,0,.08)}
 
         <div class="export-box">
           <h3>📥 Como funciona</h3>
-          <p>Depois que tu editar tudo no painel, clica no botão abaixo. O sistema gera um arquivo <b>index.html</b> novo com todas as tuas edições embutidas. Tu sobe esse arquivo no GitHub Pages substituindo o atual — e aí <b>todo mundo que acessar o site vê as tuas edições</b>.</p>
+          <p>Depois que tu editar tudo no painel, clica no botão abaixo. O sistema gera um arquivo <b>index.html</b> novo com todas as tuas edições embutidas. Tu sobe esse arquivo no GitHub Pages substituindo o atual -- e aí <b>todo mundo que acessar o site vê as tuas edições</b>.</p>
           <div class="steps">
             <b>Passo 1:</b> Edita tudo no painel<br>
             <b>Passo 2:</b> Clica em <b>"Gerar site pronto"</b><br>
@@ -1076,7 +1119,7 @@ body.light .crm-lead{background:rgba(0,0,0,.03);border-color:rgba(0,0,0,.08)}
 
         <div class="export-box" style="background:rgba(34,211,238,.08);border-color:rgba(34,211,238,.5);">
           <h3 style="color:#22d3ee;">💡 Alternativa: dados.json</h3>
-          <p>Em vez de exportar o site inteiro, tu pode exportar só os dados em arquivo separado. Assim fica mais rápido editar — só sobe o JSON, sem regenerar o HTML.</p>
+          <p>Em vez de exportar o site inteiro, tu pode exportar só os dados em arquivo separado. Assim fica mais rápido editar -- só sobe o JSON, sem regenerar o HTML.</p>
           <div class="steps">
             <b>Passo 1:</b> Edita tudo no painel<br>
             <b>Passo 2:</b> Vai na aba <b>Backup</b> e clica em <b>Exportar JSON</b><br>
@@ -1148,7 +1191,7 @@ var DEFAULT = {
   faqTitle:'Tire suas dúvidas',
   contactTitle:'Peça seu orçamento',
   contactSub:'Preenche o formulário. A gente responde rápido.',
-  footer:'© '+new Date().getFullYear()+' DomWebsite — Francisco Beltrão PR. Todos os direitos reservados.',
+  footer:'© '+new Date().getFullYear()+' DomWebsite -- Francisco Beltrão PR. Todos os direitos reservados.',
   backgrounds:emptyBg(),
   bgGlobal:{on:false,type:'',url:'',idbKey:'',opacity:40,blur:0},
   bgRgb:{on:false,opacity:35},
@@ -1170,11 +1213,11 @@ var DEFAULT = {
   categories:['E-commerce','Marketing','Design'],
   payments:{
     pix:[
-      {id:'pix1',label:'Pix — CNPJ',key:'46.991.219/0001-00',type:'CNPJ',note:'Titular: DomWebsite ME'},
-      {id:'pix2',label:'Pix — Celular',key:'46991219785',type:'Celular',note:'Titular: Dom Domingos'}
+      {id:'pix1',label:'Pix -- CNPJ',key:'46.991.219/0001-00',type:'CNPJ',note:'Titular: DomWebsite ME'},
+      {id:'pix2',label:'Pix -- Celular',key:'46991219785',type:'Celular',note:'Titular: Dom Domingos'}
     ],
     other:[
-      {id:'pay1',label:'Transferência bancária',desc:'Banco: 237 — Bradesco\nAg: 1234\nCC: 56789-0\nTitular: DomWebsite ME',link:''}
+      {id:'pay1',label:'Transferência bancária',desc:'Banco: 237 -- Bradesco\nAg: 1234\nCC: 56789-0\nTitular: DomWebsite ME',link:''}
     ]
   },
   cart:{ title:'🛒 Seu carrinho', shipFixed:0, freeAbove:0, waMsg:'Olá! Quero fazer um pedido:', color:'#25d366', showPrice:true, showQty:true, persist:true },
@@ -1421,11 +1464,11 @@ function showPixDetails(){
   var disp = $('pixDisplay'); if(!currentPix){ disp.style.display = 'none'; return; }
   disp.style.display = 'block';
   if(currentPix.type === 'other'){
-    $('pixLabel').textContent = currentPix.label; $('pixKeyValue').textContent = currentPix.note || '—';
+    $('pixLabel').textContent = currentPix.label; $('pixKeyValue').textContent = currentPix.note || '--';
     $('pixCopyBtn').style.display = 'none'; $('pixExtra').textContent = currentPix.link ? ('Link: '+currentPix.link) : '';
   } else {
     $('pixLabel').textContent = currentPix.label + (currentPix.type ? ' ('+currentPix.type+')' : '');
-    $('pixKeyValue').textContent = currentPix.key || '—'; $('pixCopyBtn').style.display = '';
+    $('pixKeyValue').textContent = currentPix.key || '--'; $('pixCopyBtn').style.display = '';
     $('pixExtra').textContent = currentPix.note ? currentPix.note : '';
   }
 }
@@ -1434,7 +1477,7 @@ function buildOrderText(name, notes){
   lines.push((S.cart.waMsg || 'Olá! Quero fazer um pedido:')); lines.push('');
   if(name) lines.push('*Nome:* '+name);
   lines.push('*Itens:*');
-  cart.forEach(function(i){ var q = S.cart.showQty ? (i.qty+'x ') : ''; var pr = S.cart.showPrice ? (' — '+brl(i.price*i.qty)) : ''; lines.push('• '+q+i.name+pr); });
+  cart.forEach(function(i){ var q = S.cart.showQty ? (i.qty+'x ') : ''; var pr = S.cart.showPrice ? (' -- '+brl(i.price*i.qty)) : ''; lines.push('• '+q+i.name+pr); });
   if(S.cart.showPrice){
     lines.push(''); lines.push('*Subtotal:* '+brl(cartSubtotal()));
     var sh = cartShipping(); if(sh > 0) lines.push('*Frete:* '+brl(sh));
@@ -1472,7 +1515,7 @@ async function renderSite(){
   await applyGlobalBackground(); await applySectionBackgrounds(); await applyImages();
 
   $('brandTxt').textContent = S.brand; $('preLogo').textContent = S.brand;
-  document.title = (S.product.name || S.brand) + ' — ' + S.brand;
+  document.title = (S.product.name || S.brand) + ' -- ' + S.brand;
   var p = S.product;
   $('heroTitle').innerHTML = '<span class="grad">'+esc(p.name)+'</span>';
   $('heroSub').textContent = p.heroSub; $('heroPrice').textContent = p.price;
@@ -1727,7 +1770,7 @@ function renderProductsAdmin(){
     var thumbHTML = '';
     if(p.src) thumbHTML = p.type==='video' ? '<video src="'+esc(p.src)+'" muted autoplay loop playsinline></video>' : '<img src="'+esc(p.src)+'" alt="">';
     else if(p.idbKey) thumbHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--muted);font-size:13px">📁 Arquivo local</div>';
-    else thumbHTML = '<div class="upload-hint"><div class="big">'+(p.emoji||'📦')+'</div><div>Sem mídia — emoji: '+esc(p.emoji||'')+'</div></div>';
+    else thumbHTML = '<div class="upload-hint"><div class="big">'+(p.emoji||'📦')+'</div><div>Sem mídia -- emoji: '+esc(p.emoji||'')+'</div></div>';
     d.innerHTML = '<div class="prod-thumb">'+thumbHTML+'</div>'+
       '<label class="switch" style="margin-bottom:10px"><input type="checkbox" '+(p.active!==false?'checked':'')+' data-k="active"><span class="tog"></span><span class="lbl">Ativo no site</span></label>'+
       '<div class="field-row"><div class="field"><label>Nome</label><input type="text" data-k="name" value="'+esc(p.name)+'"></div><div class="field"><label>Emoji (fallback)</label><input type="text" data-k="emoji" value="'+esc(p.emoji||'')+'"></div></div>'+
@@ -1862,11 +1905,11 @@ async function bgPreviewHTML(bg){
 async function renderBackgrounds(){
   var box = $('bgList'); if(!box) return;
   var gPrev = await bgPreviewHTML(S.bgGlobal);
-  var html = '<div class="bg-field" data-glob="1"><div class="head"><b>🌐 Fundo global</b><span class="status'+(S.bgGlobal.url||S.bgGlobal.idbKey?' on':'')+'">'+(S.bgGlobal.url||S.bgGlobal.idbKey?(S.bgGlobal.type||'—'):'sem fundo')+'</span></div><div class="preview'+((S.bgGlobal.url||S.bgGlobal.idbKey)?'':' empty')+'">'+gPrev+'</div><div class="row"><button type="button" data-act="g-img">📁 Imagem</button><button type="button" data-act="g-vid" class="ghost">🎬 Vídeo</button>'+((S.bgGlobal.url||S.bgGlobal.idbKey)?'<button type="button" data-act="g-rem" class="danger">🗑️ Remover</button>':'')+'</div><div class="row"><input type="url" data-glob-url placeholder="ou cole URL" value="'+esc(S.bgGlobal.url||'')+'"></div><div class="sliders"><div><label>Opacidade <span class="val" data-val="g-opacity">'+(S.bgGlobal.opacity||40)+'</span>%</label><input type="range" data-glob-range="opacity" min="0" max="100" value="'+(S.bgGlobal.opacity||40)+'"></div><div><label>Desfoque <span class="val" data-val="g-blur">'+(S.bgGlobal.blur||0)+'</span>px</label><input type="range" data-glob-range="blur" min="0" max="30" value="'+(S.bgGlobal.blur||0)+'"></div></div></div>';
+  var html = '<div class="bg-field" data-glob="1"><div class="head"><b>🌐 Fundo global</b><span class="status'+(S.bgGlobal.url||S.bgGlobal.idbKey?' on':'')+'">'+(S.bgGlobal.url||S.bgGlobal.idbKey?(S.bgGlobal.type||'--'):'sem fundo')+'</span></div><div class="preview'+((S.bgGlobal.url||S.bgGlobal.idbKey)?'':' empty')+'">'+gPrev+'</div><div class="row"><button type="button" data-act="g-img">📁 Imagem</button><button type="button" data-act="g-vid" class="ghost">🎬 Vídeo</button>'+((S.bgGlobal.url||S.bgGlobal.idbKey)?'<button type="button" data-act="g-rem" class="danger">🗑️ Remover</button>':'')+'</div><div class="row"><input type="url" data-glob-url placeholder="ou cole URL" value="'+esc(S.bgGlobal.url||'')+'"></div><div class="sliders"><div><label>Opacidade <span class="val" data-val="g-opacity">'+(S.bgGlobal.opacity||40)+'</span>%</label><input type="range" data-glob-range="opacity" min="0" max="100" value="'+(S.bgGlobal.opacity||40)+'"></div><div><label>Desfoque <span class="val" data-val="g-blur">'+(S.bgGlobal.blur||0)+'</span>px</label><input type="range" data-glob-range="blur" min="0" max="30" value="'+(S.bgGlobal.blur||0)+'"></div></div></div>';
   for(var i=0;i<BG_SECTIONS.length;i++){
     var sec = BG_SECTIONS[i]; var bg = S.backgrounds[sec.key];
     var prev = await bgPreviewHTML(bg); var has = bg.url || bg.idbKey;
-    html += '<div class="bg-field" data-key="'+sec.key+'"><div class="head"><b>'+esc(sec.label)+'</b><span class="status'+(has?' on':'')+'">'+(has?(bg.type||'—'):'sem fundo')+'</span></div><div class="preview'+(has?'':' empty')+'">'+prev+'</div><div class="row"><button type="button" data-act="img">📁 Imagem</button><button type="button" data-act="vid" class="ghost">🎬 Vídeo</button>'+(has?'<button type="button" data-act="rem" class="danger">🗑️ Remover</button>':'')+'</div><div class="row"><input type="url" data-url placeholder="ou cole URL" value="'+esc(bg.url||'')+'"></div><div class="sliders"><div><label>Opacidade <span class="val" data-val="opacity">'+(bg.opacity||35)+'</span>%</label><input type="range" data-range="opacity" min="0" max="100" value="'+(bg.opacity||35)+'"></div><div><label>Desfoque <span class="val" data-val="blur">'+(bg.blur||0)+'</span>px</label><input type="range" data-range="blur" min="0" max="30" value="'+(bg.blur||0)+'"></div></div></div>';
+    html += '<div class="bg-field" data-key="'+sec.key+'"><div class="head"><b>'+esc(sec.label)+'</b><span class="status'+(has?' on':'')+'">'+(has?(bg.type||'--'):'sem fundo')+'</span></div><div class="preview'+(has?'':' empty')+'">'+prev+'</div><div class="row"><button type="button" data-act="img">📁 Imagem</button><button type="button" data-act="vid" class="ghost">🎬 Vídeo</button>'+(has?'<button type="button" data-act="rem" class="danger">🗑️ Remover</button>':'')+'</div><div class="row"><input type="url" data-url placeholder="ou cole URL" value="'+esc(bg.url||'')+'"></div><div class="sliders"><div><label>Opacidade <span class="val" data-val="opacity">'+(bg.opacity||35)+'</span>%</label><input type="range" data-range="opacity" min="0" max="100" value="'+(bg.opacity||35)+'"></div><div><label>Desfoque <span class="val" data-val="blur">'+(bg.blur||0)+'</span>px</label><input type="range" data-range="blur" min="0" max="30" value="'+(bg.blur||0)+'"></div></div></div>';
   }
   box.innerHTML = html;
   var gBox = box.querySelector('[data-glob="1"]');
@@ -1964,7 +2007,7 @@ function renderCRM(){
     var d = document.createElement('div'); d.className='crm-lead';
     if(l.type === 'order'){
       var items = (l.items||[]).map(function(i){ return esc(i.name)+' × '+i.qty; }).join(', ');
-      d.innerHTML = '<b>'+esc(l.name)+'</b><span class="tag order">pedido</span><div style="margin-top:6px;font-size:12.5px;color:var(--muted)">'+items+'</div><div style="margin-top:4px"><b>Total:</b> '+brl(l.total)+' · <b>Pagamento:</b> '+esc(l.payment||'—')+'</div>'+(l.notes?'<div style="margin-top:4px;font-size:12.5px">'+esc(l.notes)+'</div>':'')+'<span class="date">'+new Date(l.at).toLocaleString('pt-BR')+'</span><div style="margin-top:8px"><button class="admin-btn ghost small" data-a="del">🗑️</button></div>';
+      d.innerHTML = '<b>'+esc(l.name)+'</b><span class="tag order">pedido</span><div style="margin-top:6px;font-size:12.5px;color:var(--muted)">'+items+'</div><div style="margin-top:4px"><b>Total:</b> '+brl(l.total)+' · <b>Pagamento:</b> '+esc(l.payment||'--')+'</div>'+(l.notes?'<div style="margin-top:4px;font-size:12.5px">'+esc(l.notes)+'</div>':'')+'<span class="date">'+new Date(l.at).toLocaleString('pt-BR')+'</span><div style="margin-top:8px"><button class="admin-btn ghost small" data-a="del">🗑️</button></div>';
       d.querySelector('[data-a="del"]').onclick = function(){ var i = S.orders.findIndex(function(x){ return x.id === l.id; }); if(i >= 0){ S.orders.splice(i,1); save(); renderCRM(); } };
     } else {
       d.innerHTML = '<b>'+esc(l.name)+'</b><span class="tag lead">lead</span>'+(l.phone?' · '+esc(l.phone):'')+(l.email?' · '+esc(l.email):'')+(l.msg?'<div style="margin-top:6px">'+esc(l.msg)+'</div>':'')+'<span class="date">'+new Date(l.at).toLocaleString('pt-BR')+'</span><div style="margin-top:8px"><button class="admin-btn ghost small" data-a="wa">💬 WhatsApp</button> <button class="admin-btn danger small" data-a="del">🗑️</button></div>';
@@ -2134,65 +2177,27 @@ $('exportSite').onclick = async function(){
   }
 };
 
-/* ============================================================
-   LIGHTBOX GLOBAL — imagens e vídeos nas seções Produtos, Galeria,
-   Hero, Depoimento — inclui itens adicionados depois.
-   ============================================================ */
 (function(){
   var lb = document.createElement('div');
   lb.className = 'lightbox';
-  lb.innerHTML = '<button class="lb-close" aria-label="Fechar">✕</button><div class="lb-content" style="display:flex;align-items:center;justify-content:center;max-width:100%;max-height:100%"></div><div class="lb-zoom-hint">Clique fora ou pressione Esc para fechar</div>';
+  lb.innerHTML = '<button class="lb-close">✕</button><div class="lb-content" style="display:flex;align-items:center;justify-content:center;max-width:100%;max-height:100%"></div>';
   document.body.appendChild(lb);
   var content = lb.querySelector('.lb-content');
-
-  function open(src, type){
-    content.innerHTML = '';
-    if(type === 'video'){
-      var v = document.createElement('video');
-      v.src = src; v.controls = true; v.autoplay = true; v.playsInline = true;
-      content.appendChild(v);
-    } else {
-      var img = document.createElement('img');
-      img.src = src; img.alt = '';
-      content.appendChild(img);
-    }
-    lb.classList.add('on');
-    document.body.style.overflow = 'hidden';
-  }
-  function close(){
-    lb.classList.remove('on');
-    content.innerHTML = '';
-    document.body.style.overflow = '';
-  }
+  function open(src, type){ content.innerHTML = type==='video' ? '<video src="'+src+'" controls autoplay></video>' : '<img src="'+src+'">'; lb.classList.add('on'); document.body.style.overflow='hidden'; }
+  function close(){ lb.classList.remove('on'); content.innerHTML=''; document.body.style.overflow=''; }
   lb.querySelector('.lb-close').onclick = close;
   lb.onclick = function(e){ if(e.target === lb || e.target === content) close(); };
-  document.addEventListener('keydown', function(e){ if(e.key === 'Escape' && lb.classList.contains('on')) close(); });
-
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape' && lb.classList.contains('on')) close(); });
   document.addEventListener('click', function(e){
-    var t = e.target.closest('img, video');
-    if(!t) return;
-    if(t.closest('.lightbox')) return;
-    if(t.closest('#admin')) return;
-    if(t.closest('.float')) return;
-    if(t.closest('header')) return;
-    if(t.closest('.bg-layer')) return;
-    if(t.closest('.section-bg')) return;
-    if(t.closest('.foot-bg')) return;
-    if(t.closest('#bgLayer')) return;
-    var src = t.currentSrc || t.src || t.getAttribute('src');
-    if(!src) return;
-    if(t.tagName === 'VIDEO'){
-      if(t.controls) return;
-      e.preventDefault();
-      e.stopPropagation();
-      open(src, 'video');
-    } else if(t.tagName === 'IMG'){
-      if(t.closest('.cart-item .ci-thumb')) return;
-      e.preventDefault();
-      e.stopPropagation();
-      open(src, 'image');
-    }
-  }, true);
+    var t = e.target.closest('img, video'); if(!t) return;
+    if(t.closest('.lightbox') || t.closest('#admin') || t.closest('.float') || t.closest('header')) return;
+    if(t.closest('.bg-layer') || t.closest('.section-bg') || t.closest('.foot-bg')) return;
+    if(t.closest('.product-card')) return;
+    if(t.closest('.cart-item')) return;
+    var src = t.currentSrc || t.src; if(!src) return;
+    if(t.tagName==='VIDEO'){ if(t.controls) return; e.preventDefault(); open(src, 'video'); }
+    else { e.preventDefault(); open(src, 'image'); }
+  });
 })();
 
 $('cartBtn').onclick = openCart;
@@ -2231,6 +2236,7 @@ document.addEventListener('click', function(e){
   btn.appendChild(r); setTimeout(function(){ r.remove(); }, 700);
 });
 
+/* ============ BOOT ============ */
 (async function boot(){
   S = await loadData();
   loadCart();
